@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Cronograma Semanal</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Segoe UI", Tahoma, sans-serif;
+        background: #eaf4ff; /* fondo azul claro */
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 100vh;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1000px;
+        margin: 40px 0;
+        background: #ffffff;
+        padding: 30px;
+        border-radius: 16px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 2.8rem;
+        color: #0b4f8a;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        margin-top: 40px;
+        color: #145da0;
+    }
+
+    p.sub {
+        text-align: center;
+        color: #4f6f8f;
+        margin-bottom: 30px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+        background: #d6ebff; /* azul más claro */
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    th, td {
+        padding: 14px;
+        text-align: left;
+    }
+
+    th {
+        background: #9cc9f5;
+        color: #03396c;
+        font-size: 1.05rem;
+    }
+
+    tr {
+        transition: background 0.3s ease;
+    }
+
+    tr:hover {
+        background: #b7dcff; /* sombreado al pasar el ratón */
+    }
+
+    td {
+        color: #03396c;
+    }
+
+    .emoji {
+        margin-right: 6px;
+    }
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<h1>📅 Cronograma Semanal</h1>
+<p class="sub">Preparación UNAM – IPN</p>
+
+<h2>🟦 Lunes (día flexible)</h2>
+<table>
+<tr><th>Hora</th><th>Actividad</th></tr>
+<tr><td>6:30 – 7:00</td><td>🛏️ Levantarse y aseo</td></tr>
+<tr><td>7:00 – 8:00</td><td>📖 Estudio ligero</td></tr>
+<tr><td>8:00 – 9:30</td><td>🧹 Limpieza del hogar</td></tr>
+<tr><td>9:30 – 10:00</td><td>☕ Descanso</td></tr>
+<tr><td>10:00 – 10:30</td><td>🥣 Desayuno</td></tr>
+<tr><td>10:30 – 12:00</td><td>🎮 Tiempo libre</td></tr>
+<tr><td>12:20 – 1:10</td><td>🚗 Traslado</td></tr>
+<tr><td>1:10 – 2:30</td><td>👩‍👧 Salida con mamá</td></tr>
+<tr><td>2:30 – 4:00</td><td>🛒 Compras</td></tr>
+<tr><td>5:30 – 6:00</td><td>🍽️ Cena</td></tr>
+<tr><td>6:00 – 7:30</td><td>🎧 Ocio</td></tr>
+<tr><td>7:30 – 8:30</td><td>📚 Lectura</td></tr>
+<tr><td>9:00</td><td>😴 Dormir</td></tr>
+</table>
+
+<h2>🟩 Martes a Viernes</h2>
+<table>
+<tr><th>Hora</th><th>Actividad</th></tr>
+<tr><td>5:00 – 5:30</td><td>🌅 Levantarse y alistarse</td></tr>
+<tr><td>5:30 – 7:20</td><td>🚗 Llevar a tu hermana</td></tr>
+<tr><td>7:20 – 8:40</td><td>🧠 Estudio fuerte (Mate / Física)</td></tr>
+<tr><td>8:40 – 9:00</td><td>☕ Descanso</td></tr>
+<tr><td>9:00 – 10:00</td><td>🧹 Limpieza</td></tr>
+<tr><td>10:00 – 10:30</td><td>🥣 Desayuno</td></tr>
+<tr><td>10:30 – 11:30</td><td>🧬 Estudio (Bio / Química)</td></tr>
+<tr><td>11:30 – 12:00</td><td>🛒 Mandados</td></tr>
+<tr><td>12:00 – 1:30</td><td>📝 Ejercicios tipo examen</td></tr>
+<tr><td>2:00 – 2:40</td><td>🍛 Comida</td></tr>
+<tr><td>2:40 – 3:30</td><td>🎮 Tiempo libre</td></tr>
+<tr><td>4:00 – 5:00</td><td>💪 Ejercicio</td></tr>
+<tr><td>5:00 – 5:30</td><td>🚿 Baño</td></tr>
+<tr><td>5:30 – 6:00</td><td>🍽️ Cena</td></tr>
+<tr><td>6:00 – 7:30</td><td>🎧 Ocio</td></tr>
+<tr><td>7:30 – 8:30</td><td>📚 Lectura</td></tr>
+<tr><td>9:00</td><td>😴 Dormir</td></tr>
+</table>
+
+<h2>🟨 Sábado</h2>
+<table>
+<tr><th>Hora</th><th>Actividad</th></tr>
+<tr><td>9:00</td><td>🌤️ Levantarse</td></tr>
+<tr><td>10:00 – 10:30</td><td>🥣 Desayuno</td></tr>
+<tr><td>10:30 – 12:30</td><td>📝 Examen simulacro</td></tr>
+<tr><td>2:00 – 3:00</td><td>📊 Revisión de errores</td></tr>
+<tr><td>4:00 – 5:00</td><td>💪 Ejercicio</td></tr>
+<tr><td>5:30 – 6:00</td><td>🍽️ Cena</td></tr>
+<tr><td>Noche</td><td>🎉 Libre</td></tr>
+</table>
+
+<h2>🟧 Domingo</h2>
+<table>
+<tr><th>Hora</th><th>Actividad</th></tr>
+<tr><td>9:00</td><td>🌿 Levantarse</td></tr>
+<tr><td>10:00 – 10:30</td><td>🥣 Desayuno</td></tr>
+<tr><td>10:30 – 12:00</td><td>📖 Repaso general</td></tr>
+<tr><td>1:00 – 2:00</td><td>🍛 Comida</td></tr>
+<tr><td>4:00 – 5:00</td><td>🚶‍♀️ Caminata</td></tr>
+<tr><td>5:30 – 6:00</td><td>🍽️ Cena</td></tr>
+<tr><td>7:30 – 8:30</td><td>📚 Lectura</td></tr>
+<tr><td>9:00</td><td>😴 Dormir</td></tr>
+</table>
+
+</div>
+</body>
+</html>
